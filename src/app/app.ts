@@ -11,7 +11,7 @@ import { Dynamic } from './dynamic';
 @Component({
   selector: 'app-root',
   template: `
-    <button (mouseenter)="toggle()">Click</button>
+    <button (click)="toggle()">Click</button>
 <!--    Replace (click) with (mouseleave) or (mouseenter) and remove setTimeout in the toggle()-->
   `,
   styles: `
